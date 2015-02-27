@@ -222,6 +222,10 @@ div#content p#selectSubpage a {
     margin: 5px;
 }
 
+div#content p#selectSubpage a.active {
+    background: lightblue;
+}
+
 div#content p#selectSubpage a:hover {
     background: lightblue;
 }

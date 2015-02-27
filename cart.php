@@ -18,6 +18,9 @@ class Cart
             $db = new DatabaseHandler();
             $result = $db->queryDB("INSERT INTO Warenkorb (`KundenID`, `ArtikelID`, `Menge`) "
                 . "VALUES ('{$_SESSION['userid']}', '{$_POST['articleid']}', '{$_POST['amount']}');", null);
+            if($result != 1){
+                Template::setNotice("unknown error.");
+            }
         }
         if (isset($_POST["submitRemoveArticle"])) {
             $this->removeArticleFromCart($_POST['remove']);
