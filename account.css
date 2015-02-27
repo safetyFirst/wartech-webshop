@@ -1,0 +1,40 @@
+div#accountSettings {
+
+}
+
+div#accountSettings h3 {
+    margin: 30px;
+}
+
+div#accountSettings div.settingsDiv{
+    margin-bottom: 15px;
+    border-top: 1px solid black;
+}
+
+div#accountSettings div#billingSettings .leftSettings,
+div#accountSettings div#loginSettings .leftSettings {
+    width: 45%;
+    display: block;
+    float: left;
+    margin: 0px 40px;
+}
+
+div#accountSettings div#billingSettings .rightSettings,
+div#accountSettings div#loginSettings .rightSettings {
+    width: 45%;
+    display: block;
+    margin: 0px 40px;
+}
+
+/*div#accountSettings div#loginSettings form#changeEmail {
+    width: 40%;
+    display: block;
+    float: left;
+    margin: 0px 40px;
+}
+
+div#accountSettings div#loginSettings form#changePassword {
+    width: 40%;
+    display: block;
+    margin: 0px 40px;
+}*/

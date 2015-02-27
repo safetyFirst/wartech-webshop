@@ -1,0 +1,318 @@
+@font-face {
+    font-family: 'Starjedi';
+    src: url('Fonts/Starjedi.woff');
+}
+
+@font-face {
+    font-family: 'Aurek';
+    src: url('Fonts/Aurek.woff');
+}
+
+@font-face {
+    font-family: 'Episode';
+    src: url('Fonts/episode1.woff');
+}
+
+@font-face {
+    font-family: 'Clonewars';
+    src: url('Fonts/clonewars2.woff');
+}
+
+* {
+    color: black;
+    font-family: Episode;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+input[type="submit"] {
+    border: 1px solid black;
+    background: lightskyblue;
+    padding: 3px 0px;
+    background-image: -webkit-linear-gradient(lightsteelblue 0%, lightslategrey 100%);
+    background-image: -moz-linear-gradient(lightsteelblue 0%, lightslategrey 100%);
+    background-image: -o-linear-gradient(lightsteelblue 0%, lightslategrey 100%);
+    background-image: linear-gradient(lightsteelblue 0%, lightslategrey 100%);
+}
+
+h2.pageTitle {
+    margin: 35px 25px 25px 25px;
+}
+
+div#container {
+    width: 1100px;
+    margin: 0px auto 30px auto;
+    border: 3px solid black;
+    background: url("bg_transparent.png");
+}
+
+header {
+    min-height: 225px;
+    width: 100%;
+    background: url("header.jpg");
+}
+
+header div#titel {
+    width: 100%;
+    text-align: center;
+}
+
+header div#titel a {
+    text-decoration: none;
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header div#titel a p {
+    margin: 0px;
+    padding: 10px 5px;
+}
+
+header div#titel a p#company {
+    font-family: Starjedi;
+    text-shadow: 2px 2px 2px black,
+    2px -2px 2px gold,
+    -2px 2px 2px gold,
+    -2px -2px 2px gold;
+    color: steelblue;
+    font-size: 50px;
+}
+
+header div#titel a p#desc {
+    font-family: Episode;
+    text-shadow: 2px 2px gold;
+}
+
+header nav {
+
+}
+
+menu {
+    display: block;
+    width: 274px;
+    float: left;
+    height: 100%;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+menu form.log p {
+    padding: 5px 10px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 30px;
+}
+
+menu form.log h2 {
+    padding: 5px 10px;
+}
+
+menu form.log p input {
+    width: 120px;
+    float: right;
+}
+
+menu form#register p input {
+    width: 200px;
+}
+
+menu form.log p input[type="submit"] {
+    width: 80px;
+}
+
+menu form#register p input[type="submit"] {
+    width: 80px;
+}
+
+menu p#welcome {
+    margin: 20px 10px;
+    line-height: 25px;
+}
+
+menu p#logout {
+    margin: 20px 10px;
+}
+
+menu div#options {
+
+}
+
+menu div#options > p {
+    margin: -1px 0px 0px 0px;
+    padding: 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+menu div#options p a {
+    text-decoration: none;
+    padding: 10px 5px;
+    background: #535C6D;
+    color: white;
+    transition: all 0.2s;
+    display: block;
+}
+
+menu div#options p a:hover {
+    background: gold;
+    color: black;
+}
+
+menu div#options div#minicart {
+    margin: 20px 0px;
+    padding: 5px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
+
+menu div#options div#minicart form {
+    margin: 0px;
+}
+
+menu div#options div#minicart form input {
+    pointer: cursor;
+}
+
+menu div#options div#minicart table {
+    border-top: 3px double black;
+    border-bottom: 3px double black;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+}
+
+menu div#options div#minicart table td {
+    padding: 5px 0px;
+}
+
+menu div#options div#minicart p#minicart {
+    line-height: 25px;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+div#content {
+    width: 825px;
+    height: 100%;
+    min-height: 600px;
+    float: right;
+    color: black;
+    border-left: 1px solid black;
+}
+
+div#content p#selectSubpage {
+    display: block;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+div#content p#selectSubpage a {
+    padding: 10px 15px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+div#content p#selectSubpage a:hover {
+    background: lightblue;
+}
+
+div#content table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+div#content table tr:hover {
+    background: gold;
+}
+
+div#content table th,
+div#content table td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: Starjedi;
+    text-transform: lowercase;
+}
+
+div#content table td#bild img {
+    width: 100px;
+    padding: 0px 10px;
+}
+
+div#content table td input[type='number'] {
+    width: 35px;
+    text-align: center;
+}
+
+div#content table input[type='submit'] {
+    font-family: Aurek;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    border-top: 1px solid black;
+    height: 200px;
+    background: #6F849C;
+    clear: both;
+}
+
+footer div {
+    padding: 15px;
+}
+
+footer div#address {
+    width: 200px;
+    float: left;
+}
+
+footer div#info {
+    width: 350px;
+    float: right;
+}
+
+footer p {
+    margin: 0px;
+    padding: 5px 5px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    cursor: pointer;
+}
+
+footer p:hover {
+    color: gold;
+}
+
+/********************************************************************/
+
+div#notice {
+    display: none;
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    width: 500px;
+    min-height: 50px;
+    margin: 0px 0px 0px -250px;
+    background: url("notice.png");
+    color: white;
+    border: 3px double gold;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+}

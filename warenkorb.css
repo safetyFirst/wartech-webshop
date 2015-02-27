@@ -1,0 +1,35 @@
+div#maxicart {
+
+}
+
+div#maxicart table {
+
+}
+
+div#maxicart table tr.odd {
+    background: lightblue;
+}
+
+div#maxicart table tr.even {
+    background: lightskyblue;
+}
+
+div#maxicart table tr td.red {
+    color: red;
+}
+
+div#maxicart table tr#titelzeile {
+    border-bottom: 3px solid black;
+}
+
+div#maxicart table tr#sum {
+    width: 100%;
+}
+
+div#maxicart table tr#sum td {
+    color: red;
+}
+
+div#maxicart table tr#supertotal {
+    background: limegreen;
+}
